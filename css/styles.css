@@ -73,6 +73,29 @@ img {
     display: flex;
     align-items: center;
 }
+.bg-nav-mail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.bg-nav-tel {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-nav-mail {
+    fill: var(--secondary-text-color);
+    width: 16px;
+    height: 12px;
+}
+.icon-nav-tel {
+    fill: var(--secondary-text-color);
+    width: 10px;
+    height: 16px;
+}
 .button-portf {
     display: flex;
     gap: 8px;
@@ -186,10 +209,16 @@ img {
     color: var(--secondary-text-color);
     text-decoration: none;
 }
-.cont-nav a:hover,
-.cont-nav a:focus {
+.bg-nav-mail:hover .icon-nav-mail,
+.bg-nav-mail:hover,
+.bg-nav-mail:focus {
+    fill: var(--accent-text-color);
     color: var(--accent-text-color);
 }
+/* .bg-nav-mail:hover,
+.bg-nav-mail:focus {
+    color: var(--accent-text-color);
+} */
 
 /* main section */
 .primary-section {
