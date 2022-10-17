@@ -197,6 +197,14 @@ img {
     margin: 0 auto;
     text-align: center;
     background-color: var(--background-color);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+         url(../images/main-img.jpg);
+    background-size: cover;
+    max-width: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .primary-hero {
     margin: 0 auto;
@@ -241,6 +249,27 @@ img {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.info-hero-sect li::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-color: var(--button-color-portfolio);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.icon-hero-uvaga::before {
+    background-image: url(../images/antenna.svg);
+}
+.icon-hero-punkt::before {
+    background-image: url(../images/clock.svg);
+}
+.icon-hero-plan::before {
+    background-image: url(../images/diagram.svg);
+}
+.icon-hero-tech::before {
+    background-image: url(../images/astronaut.svg);
 }
 .hero-text {
     max-width: 270px;
@@ -356,6 +385,10 @@ img {
     text-align: left;
     gap: 30px;
     padding: 0;
+}
+.portf-list:hover,
+.portf-list:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portf-pich {
     display: flex;
