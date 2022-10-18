@@ -363,6 +363,34 @@ img {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
+}
+.hero-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-basis: calc((100% - 30px) / 4)
+}
+.insta-hero,
+.twit-hero,
+.face-hero,
+.linke-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    fill: var(--secondary-text-color);
+    background-color:var(--title-text-color);
+    border-radius: 50%;
+}
+.insta-hero:hover,
+.twit-hero:hover,
+.face-hero:hover,
+.linke-hero:hover {
+    fill: var(--title-text-color);
+    background-color: var(--accent-text-color);
 }
 
                 /* second page */
