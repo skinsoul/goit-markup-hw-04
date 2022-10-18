@@ -32,7 +32,8 @@ img {
     /* delete list dot */
 .list,
 .button-portf,
-.list-footer {
+.list-footer,
+.client-list {
     list-style: none;
 }
                 /* containers */
