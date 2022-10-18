@@ -5,6 +5,7 @@
     --accent-text-color: #2196f3;
     --background-color: #2F303A;
     --button-color-portfolio: #f5f4fA;
+    --client-color-img: #afb1b8;
 }
 body {
     color: var(--basic-text-color);
@@ -47,7 +48,8 @@ img {
     padding-bottom: 94px;
 }
 .info-hero-sect,
-.section-team {
+.section-team,
+.section-clients {
     padding-top: 94px;
 }
 .container .list {
@@ -393,6 +395,32 @@ img {
     background-color: var(--accent-text-color);
 }
 
+.cliant-hero {
+    font-size: 36px;
+    margin-bottom: 50px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.client-img {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    fill: var(--secondary-text-color);
+    background-color: var(--title-text-color);
+    border-radius: 4px;
+    border: 1px solid var(--client-color-img);
+}
+.client-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-basis: calc((100% - 150px) /6)
+
+}
                 /* second page */
 /* navigation */
 
