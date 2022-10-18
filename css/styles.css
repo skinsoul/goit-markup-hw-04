@@ -44,13 +44,14 @@ img {
     padding: 0 15px;
 }
 .section,
-.section-team {
+.section-team,
+.section-client {
     margin: 0 auto;
     padding-bottom: 94px;
 }
 .info-hero-sect,
 .section-team,
-.section-clients {
+.section-client {
     padding-top: 94px;
 }
 .container .list {
@@ -396,7 +397,7 @@ img {
     background-color: var(--accent-text-color);
 }
 
-.cliant-hero {
+.client-hero {
     font-size: 36px;
     margin-bottom: 50px;
     line-height: 1.17;
@@ -419,8 +420,11 @@ img {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    flex-basis: calc((100% - 150px) /6)
-
+    flex-basis: calc((100% - 150px) /6);
+}
+.client-img:hover {
+    fill: var(--accent-text-color);
+    border: 1px solid var(--accent-text-color)
 }
                 /* second page */
 /* navigation */
